@@ -11,7 +11,7 @@ on:
 
 jobs:
   create_manual:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: create-manual
         uses: gendloop/create-manual@main
