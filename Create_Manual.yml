@@ -10,7 +10,7 @@ on:
     - cron: '40 16 * * *'
 
 jobs:
-  template_name:
+  create_manual:
     runs-on: ubuntu-latest
     steps:
       - name: create-manual
