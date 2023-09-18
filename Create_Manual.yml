@@ -13,6 +13,9 @@ jobs:
   create_manual:
     runs-on: windows-latest
     steps:
+      - name: checkout-repo
+        uses: actions/checkout@v3
+
       - name: create-manual
         uses: gendloop/create-manual@main
       
