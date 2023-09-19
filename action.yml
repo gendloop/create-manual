@@ -20,9 +20,9 @@ runs:
       working-directory: ${{ github.workspace }}
       run: |
         ${{ github.action_path }}\tools\ManualCreate_exe.exe ${{ inputs.folder }} _temp
+        Rename-Item _temp\tests.md Manual.md
         Copy-Item _temp\* ${{ inputs.destination }} -Recurse -Force
         Remove-Item _temp\* -Recurse
-        Rename-Item docs\tests.md Manual.md
 
     - name: git-push
       uses: gendloop/git-push@v1.0.0
