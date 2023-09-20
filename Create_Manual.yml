@@ -20,5 +20,5 @@ jobs:
           fetch-depth: 0
 
       - name: create-manual
-        uses: gendloop/create-manual@v1.0.0
+        uses: gendloop/create-manual@v1.0.1
       
