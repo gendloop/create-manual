@@ -14,7 +14,7 @@ inputs:
 
 runs:
   using: 'composite'
-  steps: 
+  steps:
     - name: create-manual
       shell: pwsh
       working-directory: ${{ github.workspace }}
