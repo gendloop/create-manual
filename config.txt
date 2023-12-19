@@ -2,4 +2,4 @@
 PROJECT_NAME=create-manual
 create-manual_VERSION_MAJOR=1
 create-manual_VERSION_MINOR=0
-create-manual_VERSION_PATCH=1
+create-manual_VERSION_PATCH=2
